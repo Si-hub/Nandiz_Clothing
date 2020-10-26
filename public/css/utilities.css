@@ -107,8 +107,9 @@
     }
     
     .about-text h2 {
-        font-size: 2rem;
+        font-size: 1.9rem;
         color: #17d1ac;
+        margin-right: 14em;
     }
     
     .about-text h4 {

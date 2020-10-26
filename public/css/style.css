@@ -366,6 +366,75 @@
     .btn btn-primary {
         float: right;
     }
+    /* customer enquiry form */
+    
+    .customer-enquiry {
+        color: #fff;
+        display: inline-block;
+        float: right;
+        margin-top: -20em;
+        margin-right: 20px;
+    }
+    
+    .customer-enquiry fieldset {
+        background-color: #293745;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        padding: 30px 60px;
+    }
+    
+    .customer-enquiry fieldset legend {
+        box-shadow: 0 0 8px #fff;
+        color: #fff;
+        padding: 0 15px;
+        background-color: #3094c2;
+        border-radius: 10px;
+        margin-left: 40px;
+    }
+    
+    .customer-enquiry fieldset legend {
+        font-weight: lighter;
+    }
+    
+    .customer-enquiry fieldset label {
+        display: block;
+        width: 100%;
+    }
+    
+    .customer-enquiry fieldset label input,
+    select {
+        width: 100%;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    .customer-enquiry .input textarea {
+        width: 100%;
+        padding: 5px 0;
+        font-size: 13px;
+        letter-spacing: 2px;
+        border: none;
+        border-bottom: 1px solid #333333;
+        outline: none;
+        resize: none;
+        border-radius: 5px;
+    }
+    
+    .customer-enquiry fieldset button {
+        background-color: #FDCE4B;
+        color: #293745;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        padding: 15px 25px;
+    }
+    
+    .customer-enquiry fieldset button:hover {
+        opacity: 0.8;
+    }
+    /* navFooter */
     
     .navFooter a {
         color: whitesmoke;
