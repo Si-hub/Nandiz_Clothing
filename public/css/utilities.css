@@ -1,0 +1,344 @@
+    .flex {
+        display: flex;
+    }
+    
+    .items-center {
+        align-items: center;
+    }
+    
+    .justify-between {
+        justify-content: space-between;
+    }
+    
+    .btn {
+        margin-left: 15em;
+        /*0.7 top to bottom & 1.8rem left to right*/
+        padding: 0.7rem 1.8rem;
+        /*size of the text inside the button*/
+        font-size: 0.8rem;
+        /*weight of the text to be bit bolder*/
+        font-weight: 600;
+        border: 2px solid transparent;
+        outline: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: all .3s ease;
+        border-radius: 5px;
+    }
+    
+    .btn-primary {
+        background: #3DCFD3;
+        color: rgb(14, 13, 13);
+        /* border-radius: 2%; */
+    }
+    
+    .btn-primary:hover {
+        background: transparent;
+        border-color: #3DCFD3;
+        color: #3DCFD3;
+    }
+    /* shop now button */
+    
+    .button-shop {
+        background-color: #393939;
+        color: #3DCFD3;
+        position: relative;
+        left: 80px;
+        top: 2px;
+        padding: 0.7rem 1.8rem;
+        width: 200px;
+        height: 45px;
+        border-radius: 20px;
+        border: 1px solid #3DCFD3;
+        font-weight: 600;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    
+    .button-shop:hover {
+        background: #3DCFD3;
+        border-color: #3DCFD3;
+        color: #393939;
+    }
+    /* sneaker button */
+    
+    .previous-btn {
+        background-color: #393939;
+        color: #1ed98b;
+        position: relative;
+        left: 80px;
+        top: 2px;
+        padding: 0.7rem 1.8rem;
+        width: 200px;
+        height: 45px;
+        border-radius: 20px;
+        border: 1px solid #4e4e4e;
+        font-weight: 600;
+        cursor: pointer;
+        text-transform: uppercase;
+        margin-left: 30em;
+    }
+    
+    .previous-btn:hover {
+        background-color: whitesmoke;
+        color: #343a40;
+        font-weight: 600;
+        transition: all ease .3s;
+    }
+    /* about section page */
+    
+    #about {
+        width: 100%;
+        height: 100vh;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 5% 0px 5%;
+        background-color: whitesmoke;
+        z-index: 1;
+    }
+    
+    .about-text {
+        font-family: 'Merriweather', serif;
+        width: 50%;
+        color: #343a40;
+        margin-left: 50px;
+    }
+    
+    .about-text h2 {
+        font-size: 2rem;
+        color: #17d1ac;
+    }
+    
+    .about-text h4 {
+        font-size: 1.3rem;
+        color: #393939;
+        font-weight: 100;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+    }
+    
+    .about-text h2,
+    h4 {
+        margin-bottom: 0.5rem;
+        padding: 0px;
+    }
+    
+    .about-text p {
+        color: #393939;
+        line-height: 1.5;
+        margin-bottom: 2rem;
+    }
+    
+    .about-model img {
+        width: 300px;
+        height: 390px;
+        border-radius: 4px;
+        margin-right: 4em;
+    }
+    
+    .about-text h4 span {
+        color: plum;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+    }
+    
+    .social {
+        font-size: 20px;
+        color: #393939;
+        position: fixed;
+        left: 30px;
+        top: 50%;
+        /* transform: translateY(-50%); */
+        border-radius: 20px;
+        background-color: white;
+        padding: 5px 0px;
+    }
+    
+    .social a {
+        color: #393939;
+        justify-content: space-between;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .social .fa-facebook-f:hover {
+        color: #3DCFD3;
+        transition: all .3s ease;
+    }
+    
+    .social .fa-instagram:hover {
+        color: crimson;
+        transition: all .3s ease;
+    }
+    
+    .social .fa-whatsapp:hover {
+        color: green;
+        transition: all .3s ease;
+    }
+    
+    .social .fa-twitter:hover {
+        color: blue;
+        transition: all .3s ease;
+    }
+    /* Contact Us form */
+    
+    .contact {
+        position: relative;
+        min-height: 100vh;
+        padding: 50px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: url(/images/pawel-czerwinski--0xCCPIbl3M-unsplash.jpg);
+        background-size: cover;
+    }
+    
+    .contact .content {
+        max-width: 800px;
+        text-align: center;
+    }
+    
+    .contact .content h2 {
+        font-size: 36px;
+        font-weight: 500;
+        color: #fff;
+    }
+    
+    .contact .content p {
+        font-weight: 300;
+        color: #ffffff;
+    }
+    
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .container .contactInfo {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container .contactInfo .box {
+        position: relative;
+        padding: 20px 0;
+        display: flex;
+    }
+    
+    .container .contactInfo .box .icon {
+        min-width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        border-radius: 50%;
+        font-size: 22px;
+    }
+    
+    .container .contactInfo .box .text {
+        display: flex;
+        margin-left: 20px;
+        font-size: 16px;
+        color: #fff;
+        flex-direction: column;
+        font-weight: 500;
+    }
+    
+    .container .contactInfo .box h3 {
+        font-weight: 700;
+    }
+    
+    .contactForm {
+        width: 40%;
+        padding: 40px;
+        background: lightgrey;
+        border-radius: 3px;
+    }
+    
+    .contactForm h2 {
+        font-size: 30px;
+        color: #393939;
+        font-weight: 500;
+    }
+    
+    .contactForm .inputBox {
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .contactForm .inputBox input,
+    .contactForm .inputBox textarea {
+        width: 100%;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        border: none;
+        border-bottom: 1px solid #333333;
+        outline: none;
+        resize: none;
+    }
+    
+    .contactForm .inputBox span {
+        position: absolute;
+        left: 0;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        pointer-events: none;
+        transition: .5s;
+        color: #666;
+    }
+    /* make span words to be small font,red and move up ,allowing user input */
+    
+    .contactForm .inputBox input:focus~span,
+    .contactForm .inputBox input:valid~span,
+    .contactForm .inputBox textarea:focus~span,
+    .contactForm .inputBox textarea:valid~span {
+        color: #e91e63;
+        font-size: 12px;
+        transform: translateY(-20px);
+    }
+    
+    .contactForm .inputBox input[type="submit"] {
+        width: 100px;
+        background: #00bcd4;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 2px;
+    }
+    
+    .contactForm .inputBox input[type="submit"]:hover {
+        background: whitesmoke;
+        color: #393939;
+    }
+    
+    @media (max-width:991px) {
+        .contact {
+            padding: 50px;
+        }
+        .container {
+            flex-direction: column;
+        }
+        .container .contactInfo {
+            margin-bottom: 40px;
+        }
+        .container .contactInfo,
+        .contactForm {
+            width: 100%;
+        }
+    }
